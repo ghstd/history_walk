@@ -12,9 +12,9 @@ const Map = ({ cards }) => {
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(mapRef.current)
 
-		// mapRef.current.on('click', (e) => {
-		// 	console.log(e.latlng)
-		// })
+		mapRef.current.on('click', (e) => {
+			console.log(e.latlng)
+		})
 	}, [])
 
 	useEffect(() => {
