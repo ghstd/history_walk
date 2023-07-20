@@ -9,12 +9,14 @@ import InfoSlide from './InfoSlide';
 
 const InfoSlider = ({ images }) => {
 	const [swiper, setSwiper] = useState(null)
+	const [isFullScreen, setIsFullScreen] = useState(false)
 	const [zoomRatio, setZoomRatio] = useState(1)
 
 	const onSwiperHandler = (swiper) => setSwiper(swiper)
 
 	const fullScreenHandler = () => {
 		swiper.el.classList.toggle('full-screen')
+		setIsFullScreen((prev) => !prev)
 	}
 
 	const zoomInHandler = () => {
@@ -48,6 +50,7 @@ const InfoSlider = ({ images }) => {
 				<SwiperSlide key={i}>
 					<InfoSlide
 						image={image}
+						isFullScreen={isFullScreen}
 						zoomInHandler={zoomInHandler}
 						zoomOutHandler={zoomOutHandler}
 					/>

@@ -1,4 +1,4 @@
-import data from './db.json'
+import data from './db/excursion.json'
 
 const getAllData = () => {
 	return Promise.resolve(data)

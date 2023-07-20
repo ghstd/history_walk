@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 
-const InfoSlide = ({ image, zoomInHandler, zoomOutHandler }) => {
+const InfoSlide = ({ image, isFullScreen, zoomInHandler, zoomOutHandler }) => {
 	const [isMouseIn, setIsMouseIn] = useState(false)
 
 	const mouseWheelHandler = (e) => {
-		if (isMouseIn && e.deltaY === -100) {
+		if (isFullScreen && isMouseIn && e.deltaY === -100) {
 			zoomInHandler()
 			return
 		}
 
-		if (isMouseIn && e.deltaY === 100) {
+		if (isFullScreen && isMouseIn && e.deltaY === 100) {
 			zoomOutHandler()
 			return
 		}

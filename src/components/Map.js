@@ -11,10 +11,6 @@ const Map = ({ cards }) => {
 			maxZoom: 19,
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(mapRef.current)
-
-		mapRef.current.on('click', (e) => {
-			console.log(e.latlng)
-		})
 	}, [])
 
 	useEffect(() => {
