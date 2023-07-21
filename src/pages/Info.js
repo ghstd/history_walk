@@ -1,9 +1,13 @@
 import React, { useContext, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import api from '../api'
-import InfoList from '../components/InfoList'
-import InfoSlider from '../components/InfoSlider'
 import { Context } from '../components/AppContext'
+import InfoList from '../entities/Info/InfoList'
+import InfoSlider from '../entities/Info/InfoSlider'
+import InfoSpecial from '../entities/Info/InfoSpecial'
+import InfoLinks from '../entities/Info/InfoLinks'
+import InfoVideos from '../entities/Info/InfoVideos'
+import './Info.css'
 
 const Info = () => {
 	const { state, actions } = useContext(Context)
@@ -29,8 +33,12 @@ const Info = () => {
 						<h2>{state.infoCard.title}</h2>
 						<InfoList list={state.infoCard.fullDescription} />
 						<InfoSlider images={state.infoCard.gallery} />
+						<InfoSpecial special={state.infoCard.specialInfo} />
+						<InfoLinks links={state.infoCard.links} />
+						<InfoVideos videos={state.infoCard.videos} />
 					</div>
 				}
+				<button onClick={gobackBtnHandler}>go back</button>
 			</div>
 		</>
 	)

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { Context } from './AppContext'
+import './Header.css'
 
 const Header = () => {
 	const { state, actions } = useContext(Context)
@@ -16,7 +17,10 @@ const Header = () => {
 				<button onClick={themeBtnHandler}>theme</button>
 				<nav className='navigate'>
 					<Link to='/excursion'>Excursion</Link>
-					<Link to='/interesting'>Interesting</Link>
+					<Link to='/fortresses'>Fortresses</Link>
+					<Link to='/metro'>Metro</Link>
+					<Link to='/heap'>Heap</Link>
+					<Link to='/sources'>Sources</Link>
 				</nav>
 			</div>
 		</div>

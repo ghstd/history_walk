@@ -1,10 +1,11 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
 	return (
 		<div className='container'>
 			<div className='footer'>
-				<span>year</span>
+				<span>year {new Date().getFullYear()}</span>
 			</div>
 		</div>
 	)

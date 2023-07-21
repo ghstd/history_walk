@@ -1,6 +1,6 @@
 {
 	"titleImage": "Kreposti/plan.png",
-	"titleVideo": "https://www.youtube.com/watch?v=92O9WB1gNVY",
+	"titleVideo": "https://www.youtube.com/embed/92O9WB1gNVY",
 	"items": [
 		{
 			"title": "Новый Кодак",
@@ -10,8 +10,8 @@
 				"https://oldmaps.dp.ua/?leftmap=1853&rightmap=openstreetmap#15/48.4894/34.9534"
 			],
 			"videos": [
-				"https://www.youtube.com/watch?v=r2d1-6WNwnU",
-				"https://www.youtube.com/watch?v=azR7l5f-zu8"
+				"https://www.youtube.com/embed/r2d1-6WNwnU",
+				"https://www.youtube.com/embed/azR7l5f-zu8"
 			]
 		},
 		{
@@ -21,8 +21,8 @@
 				"https://oldmaps.dp.ua/?leftmap=90144#17/48.38465/35.13806"
 			],
 			"videos": [
-				"https://www.youtube.com/watch?v=tvZO-TMTF_w",
-				"https://www.youtube.com/watch?v=VbMlHQpnmg0"
+				"https://www.youtube.com/embed/tvZO-TMTF_w",
+				"https://www.youtube.com/embed/VbMlHQpnmg0"
 			]
 		},
 		{
@@ -33,7 +33,7 @@
 				"https://oldmaps.dp.ua/?leftmap=1853&rightmap=openstreetmap#16/48.5205/34.9511"
 			],
 			"videos": [
-				"https://www.youtube.com/watch?v=nutw9TC_Zac"
+				"https://www.youtube.com/embed/nutw9TC_Zac"
 			]
 		},
 		{
@@ -43,9 +43,9 @@
 				"https://oldmaps.dp.ua/?leftmap=1853&rightmap=openstreetmap#16/48.4995/35.1625"
 			],
 			"videos": [
-				"https://www.youtube.com/watch?v=Jhkngd1jc08",
-				"https://www.youtube.com/watch?v=E0KClx5TEXI",
-				"https://www.youtube.com/watch?v=q7glFX1ygWw"
+				"https://www.youtube.com/embed/Jhkngd1jc08",
+				"https://www.youtube.com/embed/E0KClx5TEXI",
+				"https://www.youtube.com/embed/q7glFX1ygWw"
 			]
 		},
 		{
@@ -55,9 +55,9 @@
 				"https://oldmaps.dp.ua/?leftmap=90144&rightmap=openstreetmap#16/48.5373/35.1556"
 			],
 			"videos": [
-				"https://www.youtube.com/watch?v=bsus_Hkrpxw",
-				"https://www.youtube.com/watch?v=aSEh7eGLyhs&",
-				"https://www.youtube.com/watch?v=mnLvun-PtZ4"
+				"https://www.youtube.com/embed/bsus_Hkrpxw",
+				"https://www.youtube.com/embed/aSEh7eGLyhs&",
+				"https://www.youtube.com/embed/mnLvun-PtZ4"
 			]
 		},
 		{
@@ -68,8 +68,8 @@
 				"https://oldmaps.dp.ua/?leftmap=1853&rightmap=openstreetmap#16/48.5163/34.9833"
 			],
 			"videos": [
-				"https://www.youtube.com/watch?v=5-0INwzPxW0",
-				"https://youtu.be/jhlZvM8nEpk?t=58"
+				"https://www.youtube.com/embed/5-0INwzPxW0",
+				"https://www.youtube.com/embed/jhlZvM8nEpk&t=58s"
 			]
 		},
 		{
@@ -78,7 +78,7 @@
 				"https://www.google.com/maps/place/%D1%88.+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D0%BA%D0%BE%D0%B5/@49.0086379,34.375682,20573m/data=!3m1!1e3!4m6!3m5!1s0x40d9963b39bd01cf:0xaa8134434c6ae519!8m2!3d49.0087265!4d34.391273!16s%2Fg%2F121xqrb9?authuser=0&entry=ttu"
 			],
 			"videos": [
-				"https://www.youtube.com/watch?v=gxUawa3l20Y"
+				"https://www.youtube.com/embed/gxUawa3l20Y"
 			]
 		}
 	]

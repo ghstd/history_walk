@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import api from '../api'
 import { Context } from '../components/AppContext'
 import Map from '../components/Map'
-import MapContent from '../components/MapContent'
+import ExcursionContent from '../entities/Excursion/ExcursionContent'
 
 const Excursion = () => {
 	const { state, actions } = useContext(Context)
@@ -16,7 +16,7 @@ const Excursion = () => {
 	return (
 		<>
 			<Map cards={state.mapCards} />
-			<MapContent cards={state.mapCards} />
+			<ExcursionContent cards={state.mapCards} />
 		</>
 	)
 }
