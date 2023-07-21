@@ -1,0 +1,184 @@
+[
+	{
+		"section": "Карты",
+		"content": [
+			{
+				"title": "Карты мира",
+				"links": [
+					{
+						"label": "Acme - хороший спутниковый слой + слой OpenStreetMap",
+						"link": "https://mapper.acme.com"
+					},
+					{
+						"label": "OpenStreetMap",
+						"link": "https://www.openstreetmap.org"
+					},
+					{
+						"label": "Bing maps",
+						"link": "https://www.bing.com/maps"
+					},
+					{
+						"label": "Атлас городов мира с распротранением разного электротранспорта",
+						"link": "https://transphoto.org/map"
+					}
+				]
+			},
+			{
+				"title": "Исторические карты",
+				"links": [
+					{
+						"label": "Хронологический исторический атлас мира",
+						"link": "http://geacron.com"
+					},
+					{
+						"label": "Интерактивные исторические карты Украины А. Костюка",
+						"link": "https://oldmaps.dp.ua"
+					},
+					{
+						"label": "Карта Украины трехверстовая новой редакции",
+						"link": "http://freemap.com.ua/karty-ukrainy/karty-trexverstovki-novoj-redakczii"
+					},
+					{
+						"label": "Архив исторических карт и планов г. Днепр А. Волока",
+						"link": "https://www.flickr.com/photos/alexander_volok/albums/72157668394530929"
+					},
+					{
+						"label": "Старинные улицы г. Днепр с картой, историей и фотографиями разных периодов",
+						"link": "https://oldcity.dp.ua/"
+					},
+					{
+						"label": "Интерактивная карта значимых мест г. Днепр А. Домбровского",
+						"link": "https://www.shukach.com/ru/section_map/ua/blog"
+					},
+					{
+						"label": "Пользовательская гугл-карта исторических мест Украины А. Домбровского",
+						"link": "https://www.google.com/maps/d/u/0/viewer?hl=ru&mid=1aboXxNQ_-2ozeeHmqPfuV2MtHeI&ll=48.44875717103739%2C35.22630097526219&z=10"
+					},
+					{
+						"label": "Пользовательская гугл-карта мира с расположением крепостей-звезд",
+						"link": "https://www.google.com/maps/d/viewer?mid=1GZr_z7paiZuEtxnlLqBHBpUeZz0&hl=ru&ll=48.44485697692071%2C35.529765046323476&z=9"
+					}
+				]
+			}
+		]
+	},
+	{
+		"section": "Блогеры",
+		"content": [
+			{
+				"title": "Артем Костюк",
+				"links": [
+					{
+						"label": "Блог",
+						"link": "https://artkostyuk.com/"
+					},
+					{
+						"label": "Интерактивные исторические карты Украины",
+						"link": "https://oldmaps.dp.ua/blog/"
+					},
+					{
+						"label": "Сайт строительства Днепровского метрополитена",
+						"link": "https://metro.dp.ua/build"
+					},
+					{
+						"label": "Youtube канал - в основном о строительстве метро г. Днепр",
+						"link": "https://www.youtube.com/artkostyuk"
+					}
+				]
+			},
+			{
+				"title": "Ден Вейсман",
+				"links": [
+					{
+						"label": "Youtube канал - хроника недавно снесённой старой части НТЗ(Интерпайп) времён Гантке, о метрополитене и архитектуре г. Днепр",
+						"link": "https://www.youtube.com/@DenWeissman/featured"
+					}
+				]
+			},
+			{
+				"title": "Александр Домбровский (Шукач)",
+				"links": [
+					{
+						"label": "Официальный сайт - информация об исторических местах г. Днепр",
+						"link": "https://www.shukach.com/"
+					},
+					{
+						"label": "Пользовательская гугл-карта исторических мест Украины А. Домбровского",
+						"link": "https://www.google.com/maps/d/u/0/viewer?hl=ru&mid=1aboXxNQ_-2ozeeHmqPfuV2MtHeI&ll=48.44875717103739%2C35.22630097526219&z=10"
+					},
+					{
+						"label": "Youtube канал - о крепостях и исторических местах Украины с хорошей съемкой",
+						"link": "https://www.youtube.com/@dombrovskii"
+					}
+				]
+			}
+		]
+	},
+	{
+		"section": "Организации",
+		"content": [
+			{
+				"title": "Музей истории г. Днепр (О. Репан)",
+				"links": [
+					{
+						"label": "Официальный сайт музея",
+						"link": "https://midnipro.museum/"
+					},
+					{
+						"label": "Youtube канал музея",
+						"link": "https://www.youtube.com/@user-hn1pt5js2r"
+					}
+				]
+			},
+			{
+				"title": "Украинский институт национальной памяти",
+				"links": [
+					{
+						"label": "Официальный сайт",
+						"link": "https://uinp.gov.ua/"
+					},
+					{
+						"label": "Youtube канал",
+						"link": "https://www.youtube.com/@UINPofficial"
+					}
+				]
+			},
+			{
+				"title": "Приднепровская государственная академия строительства и архитектуры (Строительный институт)",
+				"links": [
+					{
+						"label": "Youtube канал",
+						"link": "https://www.youtube.com/@PDABA_Dnipro/playlists"
+					}
+				]
+			},
+			{
+				"title": "Современная украинская общая энциклопедия",
+				"links": [
+					{
+						"label": "Официальный сайт",
+						"link": "https://esu.com.ua/"
+					}
+				]
+			},
+			{
+				"title": "Днепропетровская обласная библиотека",
+				"links": [
+					{
+						"label": "Официальный сайт",
+						"link": "https://www.libr.dp.ua/"
+					}
+				]
+			},
+			{
+				"title": "Портал Днепр-Культура",
+				"links": [
+					{
+						"label": "Официальный сайт",
+						"link": "https://www.dnipro.libr.dp.ua/"
+					}
+				]
+			}
+		]
+	}
+]
