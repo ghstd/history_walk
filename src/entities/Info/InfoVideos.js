@@ -9,8 +9,6 @@ const InfoVideos = ({ videos }) => {
 					videos.map((video, i) => (
 						<div key={i}>
 							< iframe
-								width="560"
-								height="315"
 								src={video}
 								title="YouTube video player"
 								frameBorder="0"

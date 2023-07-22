@@ -1,8 +1,29 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
+import { Context } from '../components/AppContext'
+import Preloader from '../components/Preloader'
+import api from '../api'
+import FortressesHeader from '../entities/Fortresses/FortressesHeader'
+import FortressesList from '../entities/Fortresses/FortressesList'
 
 const Fortresses = () => {
+	const { state, actions } = useContext(Context)
+
+	useEffect(() => {
+		api.getFortressesData()
+			.then((data) => actions.addFortressesData(data))
+			.catch((e) => console.log(e))
+	}, [])
+
 	return (
-		<div>Fortresses</div>
+		!state.fortresses
+			? <Preloader />
+			: <div>
+				<FortressesHeader
+					titleImage={state.fortresses.titleImage}
+					titleVideo={state.fortresses.titleVideo}
+				/>
+				<FortressesList items={state.fortresses.items} />
+			</div>
 	)
 }
 

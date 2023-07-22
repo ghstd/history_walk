@@ -8,15 +8,15 @@ const Excursion = () => {
 	const { state, actions } = useContext(Context)
 
 	useEffect(() => {
-		api.getAllData()
+		api.getExcursionData()
 			.then((data) => actions.addAllCards(data))
 			.catch((e) => console.log(e))
 	}, [])
 
 	return (
 		<>
-			<Map cards={state.mapCards} />
-			<ExcursionContent cards={state.mapCards} />
+			<Map cards={state.excursionCards} />
+			<ExcursionContent cards={state.excursionCards} />
 		</>
 	)
 }
