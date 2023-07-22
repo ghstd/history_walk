@@ -16,21 +16,21 @@ const InfoSlider = ({ images }) => {
 	const onSwiperHandler = (swiper) => setSwiper(swiper)
 
 	const fullScreenHandler = () => {
-		swiper.el.classList.toggle('full-screen')
-		setIsFullScreen((prev) => !prev)
+		// swiper.el.classList.toggle('full-screen')
+		// setIsFullScreen((prev) => !prev)
 	}
 
 	const zoomInHandler = () => {
-		swiper.zoom.enable()
-		if (zoomRatio < 3) {
-			setZoomRatio(zoomRatio + 1)
-			swiper.zoom.in(zoomRatio + 1)
-		}
+		// swiper.zoom.enable()
+		// if (zoomRatio < 3) {
+		// 	setZoomRatio(zoomRatio + 1)
+		// 	swiper.zoom.in(zoomRatio + 1)
+		// }
 	}
 	const zoomOutHandler = () => {
-		swiper.zoom.disable()
-		setZoomRatio(1)
-		swiper.zoom.out()
+		// swiper.zoom.disable()
+		// setZoomRatio(1)
+		// swiper.zoom.out()
 	}
 
 	return (
@@ -41,6 +41,7 @@ const InfoSlider = ({ images }) => {
 			slidesPerView={1}
 			autoHeight={true}
 			navigation={true}
+			zoom={true}
 			pagination={{
 				type: 'fraction'
 			}}

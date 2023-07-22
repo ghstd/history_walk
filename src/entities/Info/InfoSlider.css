@@ -1,6 +1,7 @@
 .info-slider {
 	--swiper-navigation-color: #fff;
 	--swiper-pagination-color: #fff;
+	padding-bottom: 40px;
 }
 
 .info-slider.full-screen {

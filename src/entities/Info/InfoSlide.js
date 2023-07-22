@@ -27,7 +27,14 @@ const InfoSlide = ({ image, isFullScreen, zoomInHandler, zoomOutHandler }) => {
 			onMouseLeave={mouseLeaveHandler}
 		>
 			<img src={image.includes('https://') ? image : require(`../../assets/images/${image}`)} />
-			<h3>{image.split('.')[0].split('/')[1]}</h3>
+			<div>
+				<span>{image.split('.')[0].split('/')[1]}</span>
+				<a
+					href={`https://t.me/share/url?url=${require(`../../assets/images/${image}`)
+						}&text=${image.split('.')[0].split('/')[1]
+						}`}
+				>share in tg</a>
+			</div>
 		</div>
 	)
 }

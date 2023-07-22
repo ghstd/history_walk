@@ -1,6 +1,8 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
 
 const FortressesItem = ({ title, links, videos }) => {
+	document.cookie = 'cookie2=value2; SameSite=None; Secure';
 	return (
 		<li>
 			<h3>{title}</h3>
