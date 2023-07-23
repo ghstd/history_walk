@@ -1,8 +1,17 @@
 {
-	"routes": [
+	"headers": [
 		{
-			"src": "/.*",
-			"dest": "/"
+			"source": "/(.*)",
+			"headers": [
+				{
+					"key": "Set-Cookie",
+					"value": "cross-site-cookie=whatever; SameSite=None; Secure"
+				},
+				{
+					"key": "Permissions-Policy",
+					"value": "ch-ua-form-factor"
+				}
+			]
 		}
 	]
 }
