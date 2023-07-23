@@ -8,7 +8,8 @@ const config = {
 	output: {
 		path: path.join(__dirname, 'dist'),
 		filename: 'main.js',
-		// filename: 'main[contenthash:7].js'
+		// filename: 'main[contenthash:7].js',
+		// publicPath: '/',
 		assetModuleFilename: 'images/[hash][ext][query]'
 	},
 	devServer: {

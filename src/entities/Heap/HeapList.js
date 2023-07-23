@@ -1,4 +1,5 @@
 import React from 'react'
+import utils from '../../utils'
 
 const HeapList = ({ items }) => {
 	return (
@@ -19,7 +20,7 @@ const HeapList = ({ items }) => {
 														? 'карта: oldmaps'
 														: link.includes('mapper.acme.com')
 															? 'карта: acme'
-															: `${link.slice(0, 55)} ...`
+															: `${utils.parseLink(link)}`
 											}
 										</a>
 									</li>

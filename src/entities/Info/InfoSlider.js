@@ -8,38 +8,30 @@ import 'swiper/css/scrollbar';
 import InfoSlide from './InfoSlide';
 import './InfoSlider.css'
 
-const InfoSlider = ({ images }) => {
+const InfoSlider = ({ images, fullscreen = false }) => {
 	const [swiper, setSwiper] = useState(null)
-	const [isFullScreen, setIsFullScreen] = useState(false)
 	const [zoomRatio, setZoomRatio] = useState(1)
 
 	const onSwiperHandler = (swiper) => setSwiper(swiper)
 
-	const fullScreenHandler = () => {
-		// swiper.el.classList.toggle('full-screen')
-		// setIsFullScreen((prev) => !prev)
-	}
-
 	const zoomInHandler = () => {
-		// swiper.zoom.enable()
-		// if (zoomRatio < 3) {
-		// 	setZoomRatio(zoomRatio + 1)
-		// 	swiper.zoom.in(zoomRatio + 1)
-		// }
+		swiper.zoom.enable()
+		if (zoomRatio < 3) {
+			setZoomRatio(zoomRatio + 1)
+			swiper.zoom.in(zoomRatio + 1)
+		}
 	}
 	const zoomOutHandler = () => {
-		// swiper.zoom.disable()
-		// setZoomRatio(1)
-		// swiper.zoom.out()
+		swiper.zoom.disable()
+		setZoomRatio(1)
+		swiper.zoom.out()
 	}
 
 	return (
 		<Swiper
-			onClick={fullScreenHandler}
-			className='info-slider'
+			className={`info-slider ${fullscreen ? 'full-screen' : ''}`}
 			modules={[Navigation, Pagination, Zoom]}
 			slidesPerView={1}
-			autoHeight={true}
 			navigation={true}
 			zoom={true}
 			pagination={{
@@ -52,9 +44,9 @@ const InfoSlider = ({ images }) => {
 				<SwiperSlide key={i}>
 					<InfoSlide
 						image={image}
-						isFullScreen={isFullScreen}
 						zoomInHandler={zoomInHandler}
 						zoomOutHandler={zoomOutHandler}
+						fullscreen={fullscreen}
 					/>
 				</SwiperSlide>
 			))}

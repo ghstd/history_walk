@@ -9,11 +9,26 @@ const Home = () => {
 		<div>
 			<h1>Сборник ресурсов по истории города</h1>
 			<ul className='home-list'>
-				<li className='home-item' onClick={() => navigate('/excursion')}>Экскурсия по западной части города</li>
-				<li className='home-item' onClick={() => navigate('/fortresses')}>Про крепости на территории города</li>
-				<li className='home-item' onClick={() => navigate('/metro')}>Про городское метро</li>
-				<li className='home-item' onClick={() => navigate('/heap')}>Разные места и темы</li>
-				<li className='home-item' onClick={() => navigate('/sources')}>Источники и ресурсы</li>
+				<li className='home-item' onClick={() => navigate('/excursion')}>
+					<h2>Excursion</h2>
+					<p>Экскурсия по западной части города</p>
+				</li>
+				<li className='home-item' onClick={() => navigate('/fortresses')}>
+					<h2>Fortresses</h2>
+					<p>Про крепости на территории города</p>
+				</li>
+				<li className='home-item' onClick={() => navigate('/metro')}>
+					<h2>Metro</h2>
+					<p>Про городское метро</p>
+				</li>
+				<li className='home-item' onClick={() => navigate('/heap')}>
+					<h2>Heap</h2>
+					<p>Разные места и темы</p>
+				</li>
+				<li className='home-item' onClick={() => navigate('/sources')}>
+					<h2>Sources</h2>
+					<p>Источники и ресурсы</p>
+				</li>
 			</ul>
 		</div>
 	)

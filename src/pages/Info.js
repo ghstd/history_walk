@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import api from '../api'
 import { Context } from '../components/AppContext'
 import InfoList from '../entities/Info/InfoList'
@@ -8,11 +8,13 @@ import InfoSpecial from '../entities/Info/InfoSpecial'
 import InfoLinks from '../entities/Info/InfoLinks'
 import InfoVideos from '../entities/Info/InfoVideos'
 import './Info.css'
+import Preloader from '../components/Preloader'
 
 const Info = () => {
 	const { state, actions } = useContext(Context)
 	const { title } = useParams()
 	const navigate = useNavigate()
+	const location = useLocation()
 
 	useEffect(() => {
 		api.getInfoCard(title)
@@ -24,19 +26,31 @@ const Info = () => {
 		navigate('/excursion')
 	}
 
+	const fullscreenBtnHandler = () => {
+		navigate(`/excursion/${title}?fullscreen`)
+	}
+
 	return (
 		<>
 			<div>
 				<button onClick={gobackBtnHandler}>go back</button>
 				{
-					state.infoCard && <div className='info'>
-						<h2>{state.infoCard.title}</h2>
-						<InfoList list={state.infoCard.fullDescription} />
-						<InfoSlider images={state.infoCard.gallery} />
-						<InfoSpecial special={state.infoCard.specialInfo} />
-						<InfoLinks links={state.infoCard.links} />
-						<InfoVideos videos={state.infoCard.videos} />
-					</div>
+					!state.infoCard
+						? <Preloader />
+						: location.search === '?fullscreen'
+							? <InfoSlider images={state.infoCard.gallery} fullscreen />
+							: <div className='info'>
+								<h2>{state.infoCard.title}</h2>
+								<InfoList list={state.infoCard.fullDescription} />
+								<button
+									className='fullscreen-btn'
+									onClick={fullscreenBtnHandler}
+								>fullscreen</button>
+								<InfoSlider images={state.infoCard.gallery} />
+								<InfoSpecial special={state.infoCard.specialInfo} />
+								<InfoLinks links={state.infoCard.links} />
+								<InfoVideos videos={state.infoCard.videos} />
+							</div>
 				}
 				<button onClick={gobackBtnHandler}>go back</button>
 			</div>

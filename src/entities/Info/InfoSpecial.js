@@ -1,4 +1,5 @@
 import React from 'react'
+import utils from '../../utils'
 
 const InfoSpecial = ({ special }) => {
 	return !special.length ? null : (
@@ -15,7 +16,7 @@ const InfoSpecial = ({ special }) => {
 										? null
 										: item.links.map((link, i) => (
 											<div key={i}>
-												<a href={link} target='_blank'>{link.slice(0, 55)} ...</a>
+												<a href={link} target='_blank'>{utils.parseLink(link)}</a>
 											</div>
 										))
 								}

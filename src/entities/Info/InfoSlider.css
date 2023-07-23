@@ -2,6 +2,8 @@
 	--swiper-navigation-color: #fff;
 	--swiper-pagination-color: #fff;
 	padding-bottom: 40px;
+	width: 50vw;
+	margin: 0 auto;
 }
 
 .info-slider.full-screen {
@@ -9,6 +11,7 @@
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 100vw;
+	height: 100vh;
 	background-color: #000;
+	overflow: hidden;
 }

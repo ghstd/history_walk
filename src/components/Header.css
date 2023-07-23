@@ -17,6 +17,8 @@
 	font-size: 1.5rem;
 }
 
-.navigate a {
-	margin: 0 0 0 1rem;
+.navigate {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
 }

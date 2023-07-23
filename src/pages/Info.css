@@ -1,3 +1,13 @@
 .info {
 	padding: 0 2rem;
 }
+
+.fullscreen-btn {
+	padding: 5px 10px;
+	position: relative;
+	top: 28px;
+	z-index: 5;
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}

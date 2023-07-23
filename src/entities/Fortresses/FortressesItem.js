@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
+import utils from '../../utils'
 
 const FortressesItem = ({ title, links, videos }) => {
 	document.cookie = 'cookie2=value2; SameSite=None; Secure';
@@ -16,7 +16,7 @@ const FortressesItem = ({ title, links, videos }) => {
 										? 'карта: google'
 										: link.includes('oldmaps.dp.ua')
 											? 'карта: oldmaps'
-											: `${link.slice(0, 55)} ...`
+											: `${utils.parseLink(link)}`
 								}
 							</a>
 						</div>

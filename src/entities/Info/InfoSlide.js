@@ -1,16 +1,18 @@
 import React, { useState } from 'react'
 import './InfoSlide.css'
+import { useNavigate } from 'react-router-dom'
 
-const InfoSlide = ({ image, isFullScreen, zoomInHandler, zoomOutHandler }) => {
+const InfoSlide = ({ image, zoomInHandler, zoomOutHandler, fullscreen }) => {
 	const [isMouseIn, setIsMouseIn] = useState(false)
+	const navigate = useNavigate()
 
 	const mouseWheelHandler = (e) => {
-		if (isFullScreen && isMouseIn && e.deltaY === -100) {
+		if (fullscreen && isMouseIn && e.deltaY === -100) {
 			zoomInHandler()
 			return
 		}
 
-		if (isFullScreen && isMouseIn && e.deltaY === 100) {
+		if (fullscreen && isMouseIn && e.deltaY === 100) {
 			zoomOutHandler()
 			return
 		}
@@ -19,15 +21,20 @@ const InfoSlide = ({ image, isFullScreen, zoomInHandler, zoomOutHandler }) => {
 	const mouseEnterHandler = () => setIsMouseIn(true)
 	const mouseLeaveHandler = () => setIsMouseIn(false)
 
+	const gobackBtnHandler = () => {
+		navigate(-1)
+	}
+
 	return (
 		<div
-			className='info-slide swiper-zoom-container'
+			className={`info-slide ${fullscreen ? 'swiper-zoom-container full-screen' : ''}`}
 			onWheel={mouseWheelHandler}
 			onMouseEnter={mouseEnterHandler}
 			onMouseLeave={mouseLeaveHandler}
 		>
 			<img src={image.includes('https://') ? image : require(`../../assets/images/${image}`)} />
 			<div>
+				{fullscreen && <button onClick={gobackBtnHandler}>go back</button>}
 				<span>{image.split('.')[0].split('/')[1]}</span>
 				<a
 					href={`https://t.me/share/url?url=${require(`../../assets/images/${image}`)
