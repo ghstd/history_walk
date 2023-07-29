@@ -3,6 +3,7 @@ import { Context } from '../components/AppContext'
 import api from '../api'
 import MetroList from '../entities/Metro/MetroList'
 import Preloader from '../components/Preloader'
+import './Metro.css'
 
 const Metro = () => {
 	const { state, actions } = useContext(Context)
@@ -14,7 +15,7 @@ const Metro = () => {
 	}, [])
 
 	return (
-		<div>
+		<div className='metro'>
 			{
 				!state.metro.length
 					? <Preloader />

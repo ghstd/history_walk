@@ -1,0 +1,14 @@
+.info-list {
+	list-style-type: disc;
+	margin-bottom: 1.5rem;
+}
+
+.wrapper.dark .info-list {
+	list-style-type: circle;
+}
+
+@media (max-width: 767.98px) {
+	.info-list {
+		list-style-position: inside;
+	}
+}

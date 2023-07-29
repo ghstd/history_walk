@@ -1,0 +1,10 @@
+.metro {
+	width: 50%;
+	margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+	.metro {
+		width: 100%;
+	}
+}

@@ -1,4 +1,21 @@
 .footer {
-	padding: 15px;
-	background-color: mediumseagreen;
+	padding: 15px 0;
+	border-top: 1px solid var(--footer-light-text);
+}
+
+.wrapper.light .footer {
+	color: var(--footer-light-text);
+	background-color: var(--footer-light);
+	border-color: var(--footer-light-text);
+}
+
+.wrapper.dark .footer {
+	color: var(--footer-dark-text);
+	background-color: var(--footer-dark);
+	border-color: var(--footer-dark-text);
+}
+
+.footer-year {
+	text-align: center;
+	font-weight: 700;
 }

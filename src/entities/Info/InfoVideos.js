@@ -1,17 +1,18 @@
 import React from 'react'
+import './InfoVideos.css'
 
 const InfoVideos = ({ videos }) => {
 	return !videos.length ? null : (
 		<>
-			<h3>Видео-источники</h3>
-			<div>
+			<h3 className='info-videos-title'>Видео-источники</h3>
+			<div className='info-videos'>
 				{
 					videos.map((video, i) => (
-						<div key={i}>
+						<div key={i} className='info-video'>
+							<div className='info-video-padding'></div>
 							< iframe
 								src={video}
 								title="YouTube video player"
-								frameBorder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								allowFullScreen
 							/>

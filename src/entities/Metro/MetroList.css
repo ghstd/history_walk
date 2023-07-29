@@ -1,0 +1,22 @@
+.metro-list {
+	list-style-type: disc;
+}
+
+.wrapper.dark .metro-list {
+	list-style-type: circle;
+	color: var(--light)
+}
+
+@media (max-width: 767.98px) {
+	.metro-list {
+		list-style-position: inside;
+	}
+}
+
+.metro-list a {
+	font-size: 1.5rem;
+}
+
+.metro-list a:hover {
+	color: var(--hover-orange)
+}

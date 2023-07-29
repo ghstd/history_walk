@@ -1,0 +1,29 @@
+.info-special-title {
+	text-align: center;
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
+}
+
+.info-special-subtitle {
+	font-size: 1.1rem;
+	margin: 0 0 0.5rem 1rem;
+}
+
+.info-special-list {
+	list-style-type: disc;
+	margin-bottom: 1.5rem;
+}
+
+.info-special-list a:hover {
+	color: var(--hover-orange);
+}
+
+.wrapper.dark .info-special-list {
+	list-style-type: circle;
+}
+
+@media (max-width: 767.98px) {
+	.info-special-list {
+		list-style-position: inside;
+	}
+}

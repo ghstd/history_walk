@@ -1,14 +1,15 @@
 import React from 'react'
 import utils from '../../utils'
+import './HeapList.css'
 
 const HeapList = ({ items }) => {
 	return (
-		<ul>
+		<ul className='heap-list'>
 			{
 				items.map((item, i) => (
 					<li key={i}>
 						<h3>{item.label}</h3>
-						<ul>
+						<ul className='heap-list-links'>
 							{
 								item.links.map((link, i) => (
 									<li key={i}>

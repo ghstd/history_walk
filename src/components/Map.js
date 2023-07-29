@@ -33,7 +33,7 @@ const Map = ({ cards }) => {
 				target.classList.add('active')
 				setTimeout(() => {
 					target.classList.remove('active')
-				}, 1500);
+				}, 3000);
 			})
 			markers.push(marker)
 		})

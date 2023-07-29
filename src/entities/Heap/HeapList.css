@@ -1,0 +1,28 @@
+.heap-list h3 {
+	font-size: 1.3rem;
+}
+
+.heap-list-links {
+	list-style-type: disc;
+	padding-left: 0.7rem;
+	margin-bottom: 1rem;
+}
+
+.wrapper.dark .heap-list-links {
+	list-style-type: circle;
+	color: var(--light)
+}
+
+@media (max-width: 767.98px) {
+	.heap-list-links {
+		list-style-position: inside;
+	}
+}
+
+.heap-list-links a {
+	font-size: 1.15rem;
+}
+
+.heap-list-links a:hover {
+	color: var(--hover-orange)
+}

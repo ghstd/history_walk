@@ -1,15 +1,16 @@
 import React from 'react'
 import utils from '../../utils'
+import './FortressesItem.css'
 
 const FortressesItem = ({ title, links, videos }) => {
 	document.cookie = 'cookie2=value2; SameSite=None; Secure';
 	return (
-		<li>
+		<li className='fortresses-item'>
 			<h3>{title}</h3>
-			<div>
+			<ul>
 				{
 					links.map((link, i) => (
-						<div key={i}>
+						<li key={i}>
 							<a href={link} target='_blank'>
 								{
 									link.includes('google.com/map')
@@ -19,18 +20,18 @@ const FortressesItem = ({ title, links, videos }) => {
 											: `${utils.parseLink(link)}`
 								}
 							</a>
-						</div>
+						</li>
 					))
 				}
-			</div>
+			</ul>
 			<div>
 				{
 					videos.map((video, i) => (
-						<div key={i}>
+						<div key={i} className='fortresses-item-video'>
+							<div className='fortresses-item-padding'></div>
 							< iframe
 								src={video}
 								title="YouTube video player"
-								frameBorder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								allowFullScreen
 							/>

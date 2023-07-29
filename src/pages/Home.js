@@ -6,8 +6,8 @@ const Home = () => {
 	const navigate = useNavigate()
 
 	return (
-		<div>
-			<h1>Сборник ресурсов по истории города</h1>
+		<div className='home'>
+			<h1 className='home-title'>Сборник ресурсов по истории города</h1>
 			<ul className='home-list'>
 				<li className='home-item' onClick={() => navigate('/excursion')}>
 					<h2>Excursion</h2>

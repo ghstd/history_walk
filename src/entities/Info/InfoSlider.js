@@ -22,7 +22,6 @@ const InfoSlider = ({ images, fullscreen = false }) => {
 		}
 	}
 	const zoomOutHandler = () => {
-		swiper.zoom.disable()
 		setZoomRatio(1)
 		swiper.zoom.out()
 	}
@@ -32,6 +31,7 @@ const InfoSlider = ({ images, fullscreen = false }) => {
 			className={`info-slider ${fullscreen ? 'full-screen' : ''}`}
 			modules={[Navigation, Pagination, Zoom]}
 			slidesPerView={1}
+			spaceBetween={70}
 			navigation={true}
 			zoom={true}
 			pagination={{

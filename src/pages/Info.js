@@ -7,8 +7,9 @@ import InfoSlider from '../entities/Info/InfoSlider'
 import InfoSpecial from '../entities/Info/InfoSpecial'
 import InfoLinks from '../entities/Info/InfoLinks'
 import InfoVideos from '../entities/Info/InfoVideos'
-import './Info.css'
 import Preloader from '../components/Preloader'
+import { LuArrowBigLeft } from 'react-icons/lu'
+import './Info.css'
 
 const Info = () => {
 	const { state, actions } = useContext(Context)
@@ -26,34 +27,24 @@ const Info = () => {
 		navigate('/excursion')
 	}
 
-	const fullscreenBtnHandler = () => {
-		navigate(`/excursion/${title}?fullscreen`)
-	}
-
 	return (
 		<>
-			<div>
-				<button onClick={gobackBtnHandler}>go back</button>
-				{
-					!state.infoCard
-						? <Preloader />
-						: location.search === '?fullscreen'
-							? <InfoSlider images={state.infoCard.gallery} fullscreen />
-							: <div className='info'>
-								<h2>{state.infoCard.title}</h2>
-								<InfoList list={state.infoCard.fullDescription} />
-								<button
-									className='fullscreen-btn'
-									onClick={fullscreenBtnHandler}
-								>fullscreen</button>
-								<InfoSlider images={state.infoCard.gallery} />
-								<InfoSpecial special={state.infoCard.specialInfo} />
-								<InfoLinks links={state.infoCard.links} />
-								<InfoVideos videos={state.infoCard.videos} />
-							</div>
-				}
-				<button onClick={gobackBtnHandler}>go back</button>
-			</div>
+			{
+				!state.infoCard
+					? <Preloader />
+					: location.search === '?fullscreen'
+						? <InfoSlider images={state.infoCard.gallery} fullscreen />
+						: <div className='info'>
+							<LuArrowBigLeft className='info-goback-btn-top' onClick={gobackBtnHandler} />
+							<h2 className='info-title'>{state.infoCard.title}</h2>
+							<InfoList list={state.infoCard.fullDescription} />
+							<InfoSlider images={state.infoCard.gallery} />
+							<InfoSpecial special={state.infoCard.specialInfo} />
+							<InfoLinks links={state.infoCard.links} />
+							<InfoVideos videos={state.infoCard.videos} />
+							<LuArrowBigLeft className='info-goback-btn-bottom' onClick={gobackBtnHandler} />
+						</div>
+			}
 		</>
 	)
 }

@@ -11,14 +11,12 @@ const ExcursionCard = ({ id, title, shortDescription, titleImage }) => {
 
 	return (
 		<li onClick={cardClickHandler} className='excursion-card' data-id={id}>
-			<div>{id}</div>
-			<div className='excursion-card__body'>
-				<h3 className='excursion-card__item'>{title}</h3>
-				<div className='excursion-card__item'>
-					<img src={titleImage.includes('https://') ? titleImage : require(`../../assets/images/${titleImage}`)} />
-				</div>
+			<h3 className='excursion-card__title'>{id}. {title}</h3>
+			<div className='excursion-card__img'>
+				<div className='excursion-card__padding'></div>
+				<img src={titleImage.includes('https://') ? titleImage : require(`../../assets/images/${titleImage}`)} />
 			</div>
-			<p>{shortDescription}</p>
+			<p className='excursion-card__text'>{shortDescription}</p>
 		</li>
 	)
 }

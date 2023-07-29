@@ -1,0 +1,24 @@
+.sources-list {
+	list-style-type: disc;
+	padding-left: 0.7rem;
+	margin-bottom: 1rem;
+}
+
+.wrapper.dark .sources-list {
+	list-style-type: circle;
+	color: var(--light)
+}
+
+@media (max-width: 767.98px) {
+	.sources-list {
+		list-style-position: inside;
+	}
+}
+
+.sources-list a {
+	font-size: 1.15rem;
+}
+
+.sources-list a:hover {
+	color: var(--hover-orange)
+}

@@ -1,5 +1,14 @@
 .main {
-	min-height: calc(100vh - 57px - 48px);
-	padding: 15px;
-	background-color: lightslategrey;
+	flex-grow: 1;
+	padding: 1rem 0;
+}
+
+.wrapper.light .main {
+	background-color: var(--main-light);
+	color: var(--main-dark);
+}
+
+.wrapper.dark .main {
+	background-color: var(--main-dark);
+	color: var(--main-light);
 }

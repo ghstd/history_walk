@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Main from './components/Main'
@@ -12,13 +13,14 @@ import Fortresses from './pages/Fortresses'
 import Metro from './pages/Metro'
 import Heap from './pages/Heap'
 import Sources from './pages/Sources'
+import Wrapper from './components/Wrapper'
 
 const App = () => {
 
 	return (
-		<>
-			<BrowserRouter>
-				<AppContext>
+		<BrowserRouter>
+			<AppContext>
+				<Wrapper>
 					<Header />
 					<Main>
 						<Routes>
@@ -33,9 +35,9 @@ const App = () => {
 						</Routes>
 					</Main>
 					<Footer />
-				</AppContext>
-			</BrowserRouter>
-		</>
+				</Wrapper>
+			</AppContext>
+		</BrowserRouter>
 	)
 }
 

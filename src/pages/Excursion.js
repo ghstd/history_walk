@@ -14,10 +14,10 @@ const Excursion = () => {
 	}, [])
 
 	return (
-		<>
+		<div className='excursion'>
 			<Map cards={state.excursionCards} />
 			<ExcursionContent cards={state.excursionCards} />
-		</>
+		</div>
 	)
 }
 

@@ -3,6 +3,7 @@ import { Context } from '../components/AppContext'
 import api from '../api'
 import Preloader from '../components/Preloader'
 import SourcesSections from '../entities/Sources/SourcesSections'
+import './Sources.css'
 
 const Sources = () => {
 	const { state, actions } = useContext(Context)
@@ -14,7 +15,7 @@ const Sources = () => {
 	}, [])
 
 	return (
-		<div>
+		<div className='sources'>
 			{
 				!state.sources.length
 					? <Preloader />

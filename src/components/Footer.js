@@ -2,12 +2,13 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+
 	return (
-		<div className='container'>
-			<div className='footer'>
-				<span>year {new Date().getFullYear()}</span>
+		<footer className='footer'>
+			<div className='container'>
+				<div className='footer-year'>{new Date().getFullYear()}</div>
 			</div>
-		</div>
+		</footer>
 	)
 }
 
