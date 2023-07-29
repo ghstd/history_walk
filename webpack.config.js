@@ -67,15 +67,15 @@ const config = {
 			inject: false,
 			minify: false
 		}),
-		// new FileManagerPlugin({
-		// 	events: {
-		// 		onStart: {
-		// 			copy: [
-		// 				{ source: './src/assets/images/', destination: './dist/images' }
-		// 			]
-		// 		}
-		// 	}
-		// }),
+		new FileManagerPlugin({
+			events: {
+				onStart: {
+					copy: [
+						{ source: './src/assets/favicon/', destination: './dist/favicon' }
+					]
+				}
+			}
+		}),
 		new MiniCssExtractPlugin({
 			filename: 'main.css',
 			// filename: '[name].[contenthash].css',
