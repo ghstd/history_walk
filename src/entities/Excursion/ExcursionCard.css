@@ -8,21 +8,19 @@
 }
 
 .wrapper.light .excursion-card {
-	background-color: var(--excursion-light);
 	color: var(--excursion-light-text);
 }
 
 .wrapper.dark .excursion-card {
-	background-color: var(--excursion-dark);
 	color: var(--excursion-dark-text);
 	border-color: var(--excursion-dark-text);
 }
 
-.wrapper.light .excursion-card:hover {
+.excursion-card:hover {
 	background-color: var(--hover-green);
 }
 
-.wrapper.light .excursion-card.active {
+.excursion-card.active {
 	padding: 12px;
 	border-width: 4px;
 	background-color: var(--hover-blue);
