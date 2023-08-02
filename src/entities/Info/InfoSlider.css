@@ -1,7 +1,7 @@
 .info-slider {
 	--swiper-navigation-color: #fff;
 	--swiper-pagination-color: #fff;
-	padding: 2.5rem 0;
+	padding: 0 0 2.5rem 0;
 	border: 1px dashed var(--info-light-text);
 	margin-bottom: 2rem;
 	position: relative;

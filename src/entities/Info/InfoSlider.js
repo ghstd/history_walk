@@ -10,21 +10,8 @@ import './InfoSlider.css'
 
 const InfoSlider = ({ images, fullscreen = false }) => {
 	const [swiper, setSwiper] = useState(null)
-	const [zoomRatio, setZoomRatio] = useState(1)
 
 	const onSwiperHandler = (swiper) => setSwiper(swiper)
-
-	const zoomInHandler = () => {
-		swiper.zoom.enable()
-		if (zoomRatio < 3) {
-			setZoomRatio(zoomRatio + 1)
-			swiper.zoom.in(zoomRatio + 1)
-		}
-	}
-	const zoomOutHandler = () => {
-		setZoomRatio(1)
-		swiper.zoom.out()
-	}
 
 	return (
 		<Swiper
@@ -33,19 +20,16 @@ const InfoSlider = ({ images, fullscreen = false }) => {
 			slidesPerView={1}
 			spaceBetween={70}
 			navigation={true}
-			zoom={true}
 			pagination={{
 				type: 'fraction'
 			}}
+			allowTouchMove={!fullscreen}
 			onSwiper={onSwiperHandler}
-			onSlideChange={zoomOutHandler}
 		>
 			{images.map((image, i) => (
 				<SwiperSlide key={i}>
 					<InfoSlide
 						image={image}
-						zoomInHandler={zoomInHandler}
-						zoomOutHandler={zoomOutHandler}
 						fullscreen={fullscreen}
 					/>
 				</SwiperSlide>
