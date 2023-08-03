@@ -22,3 +22,9 @@
 	border: none;
 	margin: 0;
 }
+
+.info-slider.full-screen .swiper-button-next,
+.info-slider.full-screen .swiper-button-prev {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 2rem;
+}

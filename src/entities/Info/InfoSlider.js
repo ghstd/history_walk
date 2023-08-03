@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Navigation, Pagination, Zoom } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -9,9 +9,6 @@ import InfoSlide from './InfoSlide';
 import './InfoSlider.css'
 
 const InfoSlider = ({ images, fullscreen = false }) => {
-	const [swiper, setSwiper] = useState(null)
-
-	const onSwiperHandler = (swiper) => setSwiper(swiper)
 
 	return (
 		<Swiper
@@ -24,16 +21,17 @@ const InfoSlider = ({ images, fullscreen = false }) => {
 				type: 'fraction'
 			}}
 			allowTouchMove={!fullscreen}
-			onSwiper={onSwiperHandler}
 		>
-			{images.map((image, i) => (
-				<SwiperSlide key={i}>
-					<InfoSlide
-						image={image}
-						fullscreen={fullscreen}
-					/>
-				</SwiperSlide>
-			))}
+			{images.map((image, i) => {
+				return (
+					<SwiperSlide key={i}>
+						<InfoSlide
+							image={image}
+							fullscreen={fullscreen}
+						/>
+					</SwiperSlide>
+				)
+			})}
 		</Swiper>
 	)
 }

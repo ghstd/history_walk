@@ -6,7 +6,8 @@
 	margin-bottom: 1rem;
 }
 
-#map a #map span {
+#map a,
+#map span {
 	color: #000 !important;
 }
 

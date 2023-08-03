@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './InfoSlide.css'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { LiaArrowLeftSolid } from 'react-icons/lia'
@@ -7,6 +7,7 @@ import { LiaTelegram } from 'react-icons/lia'
 import { TransformComponent, TransformWrapper } from 'react-zoom-pan-pinch'
 
 const InfoSlide = ({ image, fullscreen }) => {
+	const [imageIsLoaded, setImageIsLoaded] = useState(false)
 	const navigate = useNavigate()
 	const location = useLocation()
 
@@ -40,9 +41,13 @@ const InfoSlide = ({ image, fullscreen }) => {
 					<LiaTelegram className={`info-slide-share-icon ${fullscreen ? 'swiper-zoom-container full-screen' : ''}`} />
 				</a>
 			</div>
-			<TransformWrapper wheel={{ step: 1.5 }} centerOnInit={true} disabled={!fullscreen}>
+			<TransformWrapper wheel={{ step: 1.5 }} disabled={!fullscreen}>
 				<TransformComponent>
-					<img src={image.includes('https://') ? image : require(`../../assets/images/${image}`)} />
+					<div className='info-slide-img'>
+						<img
+							onLoad={() => setImageIsLoaded(true)}
+							src={image.includes('https://') ? image : require(`../../assets/images/${image}`)} />
+					</div>
 				</TransformComponent>
 			</TransformWrapper>
 			<div className='info-slide-title'>
