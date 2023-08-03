@@ -16,11 +16,11 @@ const HeapList = ({ items }) => {
 										<a href={link} target='_blank'>
 											{
 												link.includes('google.com/map')
-													? 'карта: google'
+													? `${<span className='heap-link-map'>карта:</span>} google`
 													: link.includes('oldmaps.dp.ua')
-														? 'карта: oldmaps'
+														? `${<span className='heap-link-map'>карта:</span>} oldmaps`
 														: link.includes('mapper.acme.com')
-															? 'карта: acme'
+															? `${<span className='heap-link-map'>карта:</span>} acme`
 															: `${utils.parseLink(link)}`
 											}
 										</a>

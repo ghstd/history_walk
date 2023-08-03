@@ -26,3 +26,7 @@
 .heap-list-links a:hover {
 	color: var(--hover-orange)
 }
+
+.heap-link-map {
+	color: var(--hover-sky);
+}

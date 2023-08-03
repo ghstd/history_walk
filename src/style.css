@@ -56,6 +56,7 @@ ol {
 	--hover-green: rgba(86, 253, 161, 0.5);
 	--hover-blue: rgba(46, 194, 248, 0.5);
 	--hover-orange: rgb(227, 159, 0);
+	--hover-sky: rgb(0, 219, 227);
 }
 
 body {
