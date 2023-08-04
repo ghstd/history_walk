@@ -30,3 +30,7 @@
 .heap-link-map {
 	color: var(--hover-sky);
 }
+
+.heap-link-video {
+	color: var(--hover-salat);
+}

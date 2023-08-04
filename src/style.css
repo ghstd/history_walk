@@ -28,7 +28,7 @@ ol {
 	--header-dark-text: #fff;
 
 	--main-light: #fff;
-	--main-dark: #000;
+	--main-dark: #1c1c1d;
 
 	--footer-light: #fff;
 	--footer-light-text: #000;
@@ -53,14 +53,21 @@ ol {
 	--fortresses-dark: #000;
 	--fortresses-dark-text: #fff;
 
-	--hover-green: rgba(86, 253, 161, 0.5);
-	--hover-blue: rgba(46, 194, 248, 0.5);
-	--hover-orange: rgb(227, 159, 0);
+	--hover-green: rgba(86, 253, 161, 0.8);
+	--hover-blue: rgba(46, 194, 248, 0.8);
+	--hover-orange: rgb(255, 89, 0);
 	--hover-sky: rgb(0, 219, 227);
+	--hover-salat: rgb(1, 175, 16);
 }
 
 body {
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2,
+h3,
+h4 {
+	font-family: 'Lato', sans-serif;
 }
 
 .container {

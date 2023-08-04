@@ -16,12 +16,16 @@ const HeapList = ({ items }) => {
 										<a href={link} target='_blank'>
 											{
 												link.includes('google.com/map')
-													? `${<span className='heap-link-map'>карта:</span>} google`
+													? <span><span className='heap-link-map'>карта:</span> google</span>
 													: link.includes('oldmaps.dp.ua')
-														? `${<span className='heap-link-map'>карта:</span>} oldmaps`
+														? <span><span className='heap-link-map'>карта:</span> oldmaps</span>
 														: link.includes('mapper.acme.com')
-															? `${<span className='heap-link-map'>карта:</span>} acme`
-															: `${utils.parseLink(link)}`
+															? <span><span className='heap-link-map'>карта:</span> acme</span>
+															: link.includes('https://www.youtube')
+																? <span><span className='heap-link-video'>видео:</span> youtube</span>
+																: link.includes('https://youtu.be')
+																	? <span><span className='heap-link-video'>видео:</span> youtube</span>
+																	: `${utils.parseLink(link)}`
 											}
 										</a>
 									</li>

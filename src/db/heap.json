@@ -78,10 +78,6 @@
 		]
 	},
 	{
-		"label": "",
-		"links": []
-	},
-	{
 		"label": "Технический музей Машины времени и Antique Auto Museum Dnepropetrovsk",
 		"links": [
 			"https://www.google.com/maps/place/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%22%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D1%8B+%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%22/@48.4470229,35.070534,17.5z/data=!4m6!3m5!1s0x40dbfcd5c50cfd3f:0x4ba8dec82708e58f!8m2!3d48.4470188!4d35.070174!16s%2Fg%2F11b6gqj0c9?entry=ttu",
@@ -127,7 +123,9 @@
 		"label": "Старый особняк под канатной дорогой",
 		"links": [
 			"https://nashemisto.dp.ua/ru/2021/10/29/sekretnyj-tir-i-prizrak-professora-kakie-tajny-hranit-starinnyj-osobnjak-v-dnepre-video/",
-			"https://www.youtube.com/watch?v=w2me8A2DP2c"
+			"https://www.youtube.com/watch?v=w2me8A2DP2c",
+			"https://oldmaps.dp.ua/?leftmap=2210841&rightmap=openstreetmap#18/48.45741/35.07668",
+			"https://www.google.com/maps/@48.4571506,35.0766108,161m/data=!3m1!1e3?authuser=0&entry=ttu"
 		]
 	},
 	{
@@ -140,6 +138,8 @@
 	{
 		"label": "Архиерейская площадь, дом, церковь, сад и монастырь",
 		"links": [
+			"https://oldmaps.dp.ua/?leftmap=1901&rightmap=openstreetmap#16/48.4569/35.0734",
+			"https://oldmaps.dp.ua/?leftmap=1913&rightmap=openstreetmap#16/48.4568/35.0733",
 			"https://gorod.dp.ua/history/article_ru.php?article=1486",
 			"https://nashemisto.dp.ua/ru/2020/06/12/vizantijskij-motiv-pogibshij-v-jepohu-bezbozhija-tajny-zabytoj-arhierejskoj-cerkvi-v-dnepre/",
 			"https://www.shukach.com/ru/node/37339"
@@ -151,14 +151,103 @@
 			"https://nashemisto.dp.ua/ru/2021/02/04/stalo-izvestno-kto-raskryl-glavnuju-tajnu-istorii-dnepra/",
 			"https://opentv.media/o-nih-hodili-legendy-pohozhe-v-dnepre-nashli-nastoyashhuyu-mogilu-polya-i-lazarevskuyu-tserkov-foto",
 			"https://www.shukach.com/ru/node/15956",
-			"https://www.gorod.dp.ua/archi/?pageid=1630"
+			"https://www.gorod.dp.ua/archi/?pageid=1630",
+			"https://oldmaps.dp.ua/?rightmap=openstreetmap&leftmap=90644#18/48.44661/35.06132"
 		]
 	},
 	{
 		"label": "Парк им. Шевченко",
 		"links": [
 			"https://nashemisto.dp.ua/ru/2023/02/22/sad-lazarja-globy-i-stojanka-drevnego-cheloveka-interesnye-fakty-o-parke-im-shevchenko-v-dnepre/",
-			"https://nashemisto.dp.ua/ru/2023/02/16/po-stranicam-istorii-kogda-v-dnepre-rosli-palmy-i-kuda-oni-delis/"
+			"https://nashemisto.dp.ua/ru/2023/02/16/po-stranicam-istorii-kogda-v-dnepre-rosli-palmy-i-kuda-oni-delis/",
+			"https://oldmaps.dp.ua/?rightmap=openstreetmap&leftmap=2210841#17/48.46128/35.07167"
+		]
+	},
+	{
+		"label": "Спасо-Преображенский собор в г. Днепр (символика + видео) (+2 других по тому же проекту)",
+		"links": [
+			"https://gorod.dp.ua/history/article_ru.php?article=124",
+			"https://nashemisto.dp.ua/ru/2018/09/17/masonskie-sekrety-i-muzej-bezbozhiya-tajny-spaso-preobrazhenskogo-sobora-v-dnepre-foto/",
+			"https://youtu.be/1vD0-7w7GTw?t=204",
+			"https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B0%D1%81%D0%BE-%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_(%D0%94%D0%BD%D0%B5%D0%BF%D1%80)",
+			"https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_(%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B0%D0%B4%D1%82)",
+			"https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_(%D0%98%D0%B6%D0%B5%D0%B2%D1%81%D0%BA)"
+		]
+	},
+	{
+		"label": "Каким планировался город на холме и Спасо-Преображенский собор в г. Днепр (открытие саркофага + комиксы на стенах)",
+		"links": [
+			"https://www.google.com/maps/place/%D0%90%D1%84%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%90%D0%BA%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C/@37.9714569,23.7255297,457m/data=!3m1!1e3!4m10!1m3!4m2!1m0!1m0!3m5!1s0x14a1bd1837f5acf3:0x5c97c042f5eb0df6!8m2!3d37.9715323!4d23.7257492!16zL20vMHdqag?authuser=0&entry=ttu",
+			"https://www.google.com/maps/place/%D0%A1%D0%B0%D0%BD+-+%D0%9F%D0%B0%D0%BE%D0%BB%D0%BE+-+%D0%A4%D1%83%D0%BE%D1%80%D0%B8+-+%D0%BB%D0%B5+-+%D0%9C%D1%83%D1%80%D0%B0/@41.858751,12.476119,431m/data=!3m1!1e3!4m14!1m7!3m6!1s0x13258a8f289217d9:0x725188884a3b4d4e!2z0KHQsNC9IC0g0J_QsNC-0LvQviAtINCk0YPQvtGA0LggLSDQu9C1IC0g0JzRg9GA0LA!8m2!3d41.8586767!4d12.4767338!16zL20vMDFkXzN5!3m5!1s0x13258a8f289217d9:0x725188884a3b4d4e!8m2!3d41.8586767!4d12.4767338!16zL20vMDFkXzN5?hl=ru&entry=ttu",
+			"https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD-%D0%9F%D0%B0%D0%BE%D0%BB%D0%BE-%D1%84%D1%83%D0%BE%D1%80%D0%B8-%D0%BB%D0%B5-%D0%9C%D1%83%D1%80%D0%B0",
+			"https://www.vatican.va/various/basiliche/san_paolo/vr_tour/index-en.html",
+			"https://rcweb.dartmouth.edu/CamerlenghiN/VirtualBasilica/panoramas.html"
+		]
+	},
+	{
+		"label": "Район 9-го хлебзавода с чудными названиями",
+		"links": [
+			"https://www.google.com/maps/place/%D0%97%D0%9E%D0%A1%D0%A8+%E2%84%964+%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8+%D0%9A%D1%83%D0%B7%D1%8C%D0%BC%D1%8B+%D0%B8+%D0%AE%D0%BB%D0%B8%D0%BA%D0%B0/@48.4566972,34.962502,16z/data=!4m6!3m5!1s0x40dbe393964a4ee9:0x1b01bfcb06d37f61!8m2!3d48.4559985!4d34.9598292!16s%2Fg%2F1pp2vfpcb?entry=ttu"
+		]
+	},
+	{
+		"label": "Курганы за Рыбальским карьером",
+		"links": [
+			"https://www.google.com/maps/place/%D0%BA%D1%83%D1%80%D0%B3%D0%B0%D0%BD+%D0%9E%D1%81%D1%82%D1%80%D0%B0%D1%8F+%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0/@48.4570029,35.169235,3073m/data=!3m1!1e3!4m6!3m5!1s0x40dbfd87156935df:0x100c8ceda71f63d8!8m2!3d48.4562415!4d35.1707302!16s%2Fg%2F11fy94164z?authuser=0&entry=ttu",
+			"https://mapper.acme.com/?ll=48.45365,35.16809&z=16&t=M"
+		]
+	},
+	{
+		"label": "Cравнение размеров карьеров: Кр. Камень, Рыбальский, Полтавский горно-обогатительный комбинат (масштаб одинаковый)",
+		"links": [
+			"https://www.google.com/maps/@48.4867309,34.9404366,1536m/data=!3m1!1e3?authuser=0&entry=ttu",
+			"https://www.google.com/maps/place/%D0%A0%D1%8B%D0%B1%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/@48.4490068,35.1439539,1537m/data=!3m1!1e3!4m6!3m5!1s0x40dbfd7682785ce7:0xf9cdae0276cefe0!8m2!3d48.4508411!4d35.1437614!16s%2Fg%2F11bvtgtjt4?authuser=0&entry=ttu",
+			"https://www.google.com/maps/place/Poltavs%CA%B9kyy+Hirnycho-Zbahachuval%CA%B9nyy+Kombinat/@49.0293376,33.6593752,1519m/data=!3m1!1e3!4m6!3m5!1s0x40d9fe5955555555:0x2473bc805053d03c!8m2!3d49.0314204!4d33.6662298!16s%2Fg%2F11txv20w_c?authuser=0&entry=ttu"
+		]
+	},
+	{
+		"label": "Старая Игрень",
+		"links": [
+			"https://www.gorod.dp.ua/history/article_ru.php?article=136",
+			"https://uk.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B0%D0%BC_(%D0%A1%D1%82%D0%B0%D1%80%D0%B0_%D0%86%D0%B3%D1%80%D0%B5%D0%BD%D1%8C)",
+			"https://www.google.com/maps/place/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D1%85%D1%80%D0%B0%D0%BC+%D0%A3%D0%9F%D0%A6/@48.4351167,35.1216888,3a,90y,299.43h,48.25t/data=!3m8!1e1!3m6!1sAF1QipOQnsdXDz5KQkWVL4X7t80s7EEWMeNI7XIyB_v0!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOQnsdXDz5KQkWVL4X7t80s7EEWMeNI7XIyB_v0%3Dw203-h100-k-no-pi-0-ya146.157-ro-0-fo100!7i8000!8i4000!4m7!3m6!1s0x40dbfd0705b4fb15:0x77517a657685746c!8m2!3d48.4362148!4d35.1252872!10e5!16s%2Fg%2F120l363f?authuser=0&entry=ttu",
+			"https://mapper.acme.com/?ll=48.43603,35.12527&z=18&t=M"
+		]
+	},
+	{
+		"label": "Могила кошового отамана Івана Сірка та iсторiя його черепа",
+		"links": [
+			"https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BA%D0%BE%D1%88%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%BE%D1%82%D0%B0%D0%BC%D0%B0%D0%BD%D0%B0_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0_%D0%A1%D1%96%D1%80%D0%BA%D0%B0",
+			"https://youtu.be/aqyGE7aS6pg?t=2432",
+			"https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA+%D0%BA%D0%BE%D1%88%D0%B5%D0%B2%D0%BE%D0%BC%D1%83+%D0%B0%D1%82%D0%B0%D0%BC%D0%B0%D0%BD%D1%83+%D0%B2%D0%BE%D0%B9%D1%81%D0%BA%D0%B0+%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D0%98%D0%B2%D0%B0%D0%BD%D1%83+%D0%A1%D0%B8%D1%80%D0%BA%D0%BE/@47.5850567,34.2278031,12501m/data=!3m1!1e3!4m6!3m5!1s0x40dca709bbf9fe69:0x626201bf40a46997!8m2!3d47.5720101!4d34.221193!16s%2Fg%2F11crzz8lkc?authuser=0&entry=ttu",
+			"https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BC'%D1%8F%D1%82%D0%BD%D0%B8%D0%BA+%D0%86.+%D0%94.+%D0%A1%D1%96%D1%80%D0%BA%D0%BE/@47.5861187,34.6227092,12501m/data=!3m1!1e3!4m6!3m5!1s0x40dc966f091059a9:0xb857957a0254e81f!8m2!3d47.5908242!4d34.6439381!16s%2Fg%2F11c1p3bnxb?authuser=0&entry=ttu",
+			"https://oldmaps.dp.ua/greatlug/?rightmap=50723&leftmap=1853#13/47.5426/34.2359"
+		]
+	},
+	{
+		"label": "Музей судноплавства на Хортиці",
+		"links": [
+			"https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D1%81%D1%83%D0%B4%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D0%B0+%D0%BD%D0%B0+%D0%A5%D0%BE%D1%80%D1%82%D0%B8%D1%86%D1%96/@47.7997465,35.1351366,3a,118.7y,90t/data=!3m8!1e2!3m6!1sAF1QipNFCG8qvUjbM-agvaHD8OyVursOTTApAKWJuNx9!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNFCG8qvUjbM-agvaHD8OyVursOTTApAKWJuNx9%3Dw153-h86-k-no!7i1024!8i575!4m7!3m6!1s0x40dc5e2ee091f851:0x85d3be4de1cc4cd4!8m2!3d47.7998997!4d35.1349289!10e5!16s%2Fg%2F11bvvxpmzp?entry=ttu",
+			"https://youtu.be/aqyGE7aS6pg?t=1783"
+		]
+	},
+	{
+		"label": "Днепровские пороги",
+		"links": [
+			"https://ru.wikipedia.org/wiki/%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5_%D0%BF%D0%BE%D1%80%D0%BE%D0%B3%D0%B8",
+			"https://gorod.dp.ua/history/article_ru.php?article=11",
+			"https://www.youtube.com/watch?v=lElC5E_-b8U&list=PLRRSrapYm6Bhxrz8e6flTiNW0--wnyAul",
+			"https://oldmaps.dp.ua/?rightmap=openstreetmap&leftmap=1853#15/48.3884/35.1459"
+		]
+	},
+	{
+		"label": "Сохранившаяся часть церкви на территории современной Строительной академии",
+		"links": [
+			"https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_(%D0%94%D0%BD%D0%B5%D0%BF%D1%80)",
+			"https://dp.informator.ua/ru/neizvestnyj-dnepr-na-territorii-stroitelnoj-akademii-pritailas-stoletnyaya-tserkov",
+			"https://oldmaps.dp.ua/?leftmap=19291&rightmap=openstreetmap#16/48.4537/35.0541",
+			"https://oldmaps.dp.ua/?rightmap=openstreetmap&leftmap=90644#18/48.45455/35.05480",
+			"https://www.google.com/maps/place/%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C/@48.4545943,35.0543863,162m/data=!3m1!1e3!4m6!3m5!1s0x40dbe3a02eeb41c5:0xd676635bee67964b!8m2!3d48.4545572!4d35.0549121!16s%2Fg%2F121xw90r?authuser=0&entry=ttu"
 		]
 	}
 ]
